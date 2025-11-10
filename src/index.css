@@ -3,12 +3,51 @@
 
 @custom-variant dark (&:where(.dark, .dark *));
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
-
 @utility container {
   padding-inline: 1rem ;
   margin-inline: auto;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+
+@utility container {
+  margin-inline: auto;
+  max-width: 1170px;
+}
+
+@theme{
+  /* Fonts  */
+  --font-poppins:"Poppins", sans-serif;
+  --font-grotesk:  "Space Grotesk", sans-serif;
+  --font-inter: "Inter", sans-serif;
+
+  /* Colors */
+  --color-button: #000000;
+  --color-text: #FAFAFA;
+  --color-button2: #DB4444;
+  --color-secondary: #F5F5F5;
+
+  /* Shadow */
+  --shadow-info: 0 2px 10px 2px rgba(0, 0, 0, 0.212);
+  --shadow-contact: 0 1px 13px  rgba(0, 0, 0, 0.050);
+}
+
+.buttons::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  height: 2px;
+  width: 0;
+  background: rgb(0, 0, 0);
+  transition: all linear 0.3s;
+  
+}
+
+.buttons:hover::after{
+  width: 100%;
 }
 
 /* @layer base {

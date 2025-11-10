@@ -6,5 +6,16 @@ import delivery from "../assets/delivery.svg"
 import customer_service from "../assets/customer-service.svg"
 import secure from "../assets/secure.svg"
 import LoginImages from "../assets/LoginImages.png"
+import signup from "../assets/signup.jpg"
+import google from "../assets/Icon-Google.svg"
+import Facebook from "../assets/Facebook_icon.png"
+import facebook from "../assets/Icon-Facebook.svg"
+import instagram from "../assets/instagram.svg"
+import twitter from "../assets/twitter.svg"
+import linkedin from "../assets/linkedin.svg"
+import Sent from "../assets/gmail_sent.svg"
+import Qr from "../assets/qr.svg"
+import PlayStore from "../assets/play-store.svg"
+import AppleStore from "../assets/appstore.svg"
 
-export {about_image, employee_1, employee_2, employee_3, delivery, customer_service, secure, LoginImages }
+export {about_image, employee_1, employee_2, employee_3, delivery, customer_service, secure, LoginImages, signup, google, Facebook, facebook, instagram, twitter, linkedin, Sent, Qr, PlayStore, AppleStore }

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Heart, Menu, Search, ShoppingCart, X } from 'lucide-react';
-import { DropdownMenu, DropdownMenuContent, DropdownMenuLabel, DropdownMenuRadioGroup, DropdownMenuRadioItem, DropdownMenuSeparator, DropdownMenuTrigger } from '@/components/ui/dropdown-menu';
+import { Heart, Menu, Search, ShoppingCart, User, X } from 'lucide-react';
+import { DropdownMenu, DropdownMenuContent, DropdownMenuRadioGroup, DropdownMenuRadioItem, DropdownMenuSeparator, DropdownMenuTrigger } from '@/components/ui/dropdown-menu';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router';
 
@@ -137,9 +137,9 @@ export default function NavBar() {
             </button>
                 </Link>
 
-                {/* <Link to={"account"}>
-                  <img src="user.svg" alt="icon" />
-                </Link> */}
+            <Link to={""}>
+                  <User size={30} strokeWidth={2} />
+                </Link>
               </div>
             </div>
           </div>

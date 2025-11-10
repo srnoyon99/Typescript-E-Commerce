@@ -1,7 +1,7 @@
 import {   SlashIcon  } from "lucide-react"
 import { Icon } from "@iconify/react";
 import { nanoid } from 'nanoid';
-import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, BreadcrumbList, BreadcrumbSeparator } from "./breadcrumb";
+import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, BreadcrumbList, BreadcrumbSeparator } from "./ui/breadcrumb";
 import { about_image, customer_service, delivery, employee_1, employee_2, employee_3, secure } from "@/ImportImages/ImportImages";
 
 const About: React.FC = () => {
